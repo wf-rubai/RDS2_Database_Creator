@@ -32,7 +32,7 @@ This project is designed to manage course data for North South University (NSU) 
    - This will serve your PHP project on `http://localhost:1111`.
 
 ### 5. **Access the Updated HTML Page**
-   - Open your browser and go to the following location (or just press command + 'press the link below in readme file'):
+   - Open your browser and go to the following location (or just press `cmd + 'press the link below in readme file'`):
      ```bash
      http://localhost:1111/html/rds2_html_000.html
      ```
