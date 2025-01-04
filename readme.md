@@ -22,8 +22,13 @@ This project is designed to manage course data for North South University (NSU) 
 ### 3. **Update the `rds2_html_000.html` File**
    - Duplicate the `rds2_html_000.html` file and rename it for the new semester (e.g., `rds2_html_251.html`).
    - Open the new HTML file and **replace the `<tbody>` section** with the one you copied from the downloaded file.
+   - Open the downloaded HTML file, locate the `<tbody>` section, and **copy the entire `<tbody>`** content.
 
-### 4. **Run the PHP Project on Local Server**
+### 4. **Update the json file name and table name**
+   - In `php_save_table.php` and `php_import_json.php` change the `$jsonFilePath` with the new file name that you will be creating.
+   - In `php_import_json.php` chang the `$tableName` with the new tabel name. The table will be create by itself.
+
+### 5. **Run the PHP Project on Local Server**
    - Open your terminal and navigate to the root directory of your PHP project.
    - Run the following command to start the PHP built-in server:
      ```bash
@@ -31,20 +36,20 @@ This project is designed to manage course data for North South University (NSU) 
      ```
    - This will serve your PHP project on `http://localhost:1111`.
 
-### 5. **Access the Updated HTML Page**
+### 6. **Access the Updated HTML Page**
    - Open your browser and go to the following location (or just press `cmd + 'press the link below in readme file'`):
      ```bash
      http://localhost:1111/html/rds2_html_000.html
      ```
    - You should now see the updated HTML page for the new semester's courses.
 
-### 6. **Save Data Using the "Save Data" Button**
+### 7. **Save Data Using the "Save Data" Button**
    - On the updated page, click the **`Save Data`** button.
    - This will trigger the following actions:
      - The course data is saved into a **JSON file**.
      - The PHP script will insert the data into the **MySQL database**.
      - Both the **JSON file** and **database** will be updated with the new semester's course information.
 
-### 7. **Automation**
+### 8. **Automation**
    - The process of saving data into the **JSON file** and inserting it into the **database** is automated once the **Save Data** button is clicked.
    - The new data will be ready for use across the system.
