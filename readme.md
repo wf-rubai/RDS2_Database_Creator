@@ -20,7 +20,7 @@ This project is designed to manage course data for North South University (NSU) 
    - Open the downloaded HTML file, locate the `<tbody>` section, and **copy the entire `<tbody>`** content.
 
 ### 3. **Update the `rds2_html_000.html` File**
-   - Duplicate the `rds2_html_000.html` file and rename it for the new semester (e.g., `rds2_html_000.html`).
+   - Duplicate the `rds2_html_000.html` file and rename it for the new semester (e.g., `rds2_html_251.html`).
    - Open the new HTML file and **replace the `<tbody>` section** with the one you copied from the downloaded file.
 
 ### 4. **Run the PHP Project on Local Server**
