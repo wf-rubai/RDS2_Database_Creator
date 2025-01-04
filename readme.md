@@ -39,7 +39,7 @@ This project is designed to manage course data for North South University (NSU) 
    - You should now see the updated HTML page for the new semester's courses.
 
 ### 6. **Save Data Using the "Save Data" Button**
-   - On the updated page, click the `Save Data` button.
+   - On the updated page, click the **`Save Data`** button.
    - This will trigger the following actions:
      - The course data is saved into a **JSON file**.
      - The PHP script will insert the data into the **MySQL database**.
